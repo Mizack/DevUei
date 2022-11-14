@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D2FB765-35B9-F2A8-F5CE-1BFF78AEED02" name="CURSO_USUARIO">
-<createdBy>admin</createdBy>
-<createdTime>2022-11-14 17:21:38 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5DB34C23-AF38-348F-1E1A-96F240F65185" name="MENSALIDADE">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-14 21:54:50 UTC</createdTime>
 <ownerDesignName>modelagemSQL</ownerDesignName>
 <engineerTo>
 <item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_CURSO_USUARIO" id="6BFBE2D6-CDD4-9C02-F7B1-B1DD5C07640B">
-<createdBy>admin</createdBy>
-<createdTime>2022-11-14 17:21:46 UTC</createdTime>
+<Attribute name="ID_MENSALIDADE" id="FE4AC6BA-2143-A50B-5333-CF7290A69BC9">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-14 21:56:28 UTC</createdTime>
 <ownerDesignName>modelagemSQL</ownerDesignName>
 <engineerTo>
 <item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
@@ -27,10 +27,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_USUARIO" id="C9E60005-2CA6-C9A4-933A-E2F80454D487">
-<createdBy>admin</createdBy>
-<createdTime>2022-11-14 17:23:10 UTC</createdTime>
-<generatorID>701A0E0C-619D-00C3-4330-3FD8FC70A9B7</generatorID>
+<Attribute name="ID_USUARIO" id="BEF93874-7F65-447E-03A4-17FCA1F89D94">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-14 22:01:21 UTC</createdTime>
+<generatorID>DD5FBE9B-2261-A04E-89BC-44349C12A4D6</generatorID>
 <ownerDesignName>modelagemSQL</ownerDesignName>
 <engineerTo>
 <item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
@@ -41,47 +41,48 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_CURSO" id="EB7AF4B9-83F4-3CD8-74B5-A30A50721121">
-<createdBy>admin</createdBy>
-<createdTime>2022-11-14 17:25:08 UTC</createdTime>
-<generatorID>8E8487B3-E2EF-10BA-C091-3BDB7B12B058</generatorID>
+<Attribute name="DIA_VENCIMENTO" id="9E9D93D4-B1EC-A7F8-FC66-75E978199E83">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-14 21:56:52 UTC</createdTime>
 <ownerDesignName>modelagemSQL</ownerDesignName>
 <engineerTo>
 <item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
 </engineerTo>
-<referedAttribute>593E824A-14DF-CEE5-4B16-95D07C9B234B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SITUACAO" id="382DE915-3440-608B-5528-E2DA2D7346F4">
-<createdBy>admin</createdBy>
-<createdTime>2022-11-14 18:10:14 UTC</createdTime>
-<ownerDesignName>modelagemSQL</ownerDesignName>
-<engineerTo>
-<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT018</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="SOMENTE_BASICO" id="B3D4752C-1953-B9AA-2F82-198C1DDE76BB">
+<Attribute name="CODIGO_PAGAMENTO" id="783F0802-F254-9CBE-2A10-25ECE321FCD7">
 <createdBy>miza</createdBy>
-<createdTime>2022-11-14 21:50:00 UTC</createdTime>
+<createdTime>2022-11-14 21:58:00 UTC</createdTime>
 <ownerDesignName>modelagemSQL</ownerDesignName>
 <engineerTo>
 <item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT018</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DATA_CADASTRO" id="116A6600-0058-7B86-398A-540FF4D89275">
-<createdBy>admin</createdBy>
-<createdTime>2022-11-14 17:22:09 UTC</createdTime>
+<Attribute name="VALOR" id="6DF0D52D-F09E-DD4F-7E4A-230630C60A71">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-14 21:58:37 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_PAGAMENTO" id="CFE3AF84-928E-1BCE-3BCD-84BCE9217848">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-14 21:59:47 UTC</createdTime>
 <ownerDesignName>modelagemSQL</ownerDesignName>
 <engineerTo>
 <item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
@@ -93,16 +94,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="12C342D8-B799-FC0F-B402-A51F865C86B3" name="CURSO_USUARIO PK">
-<createdBy>admin</createdBy>
-<createdTime>2022-11-14 17:22:07 UTC</createdTime>
+<identifier id="B0D60677-B6EA-1627-917E-EDF0B8C81A73" name="MENSALIDADE PK">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-14 21:56:44 UTC</createdTime>
 <ownerDesignName>modelagemSQL</ownerDesignName>
 <engineerTo>
 <item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6BFBE2D6-CDD4-9C02-F7B1-B1DD5C07640B</attributeRef>
+<attributeRef>FE4AC6BA-2143-A50B-5333-CF7290A69BC9</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

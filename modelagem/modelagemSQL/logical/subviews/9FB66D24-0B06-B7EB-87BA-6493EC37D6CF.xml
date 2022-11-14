@@ -16,11 +16,15 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2D2FB765-35B9-F2A8-F5CE-1BFF78AEED02" otype="Entity" vid="DCA1F292-1918-1BAB-1F3B-6FBAD4A75036">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="326" y="509" width="253" height="116"/>
+<bounds x="326" y="509" width="253" height="130"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="353E6C3A-5622-88BB-93D7-5E6231A9266A" otype="Entity" vid="32DEC21B-4B39-23CE-1602-C7A6A7F2FBFA">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="613" y="290" width="208" height="102"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="5DB34C23-AF38-348F-1E1A-96F240F65185" otype="Entity" vid="8E1DDA72-1B34-47F5-0641-C208CAAA4FF1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="65" y="671" width="262" height="130"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="8CED1B76-D524-4525-F74A-8B8493557A08" otype="Entity" vid="F4A61F64-6CC2-7BA4-6F6C-3A669973B6B5">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -70,6 +74,15 @@
 <point x="716" y="392"/>
 <point x="716" y="567"/>
 <point x="579" y="567"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="DD5FBE9B-2261-A04E-89BC-44349C12A4D6" otype="Relation" vid_source="5A7E6093-670D-3CD2-C879-19F8A54CFC0B" vid_target="8E1DDA72-1B34-47F5-0641-C208CAAA4FF1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="99" y="453"/>
+<point x="100" y="671"/>
 </points>
 </Connector>
 </connectors>
