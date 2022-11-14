@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="353E6C3A-5622-88BB-93D7-5E6231A9266A" name="CURSO">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:17:10 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CURSO" id="593E824A-14DF-CEE5-4B16-95D07C9B234B">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:17:24 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="5C9ACC54-6BF8-2A7D-0A53-EEB14234D89F">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:18:16 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRICAO" id="BE7526D3-8A45-D55E-4CC9-B740B862413D">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:19:16 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DURACAO" id="9423B6AC-748E-3CFF-091F-E015FB36AABB">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:19:34 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0ECF03CE-1298-3A17-C931-487D37971BB0" name="CURSO PK">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:18:12 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>593E824A-14DF-CEE5-4B16-95D07C9B234B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

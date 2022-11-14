@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D2FB765-35B9-F2A8-F5CE-1BFF78AEED02" name="CURSO_USUARIO">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:21:38 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CURSO_USUARIO" id="6BFBE2D6-CDD4-9C02-F7B1-B1DD5C07640B">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:21:46 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USUARIO" id="C9E60005-2CA6-C9A4-933A-E2F80454D487">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:23:10 UTC</createdTime>
+<generatorID>701A0E0C-619D-00C3-4330-3FD8FC70A9B7</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<referedAttribute>A6377D7E-87AD-DABA-3B6D-5F4AFA463DC8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CURSO" id="EB7AF4B9-83F4-3CD8-74B5-A30A50721121">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:25:08 UTC</createdTime>
+<generatorID>8E8487B3-E2EF-10BA-C091-3BDB7B12B058</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<referedAttribute>593E824A-14DF-CEE5-4B16-95D07C9B234B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SITUACAO" id="382DE915-3440-608B-5528-E2DA2D7346F4">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 18:10:14 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_CADASTRO" id="116A6600-0058-7B86-398A-540FF4D89275">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:22:09 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12C342D8-B799-FC0F-B402-A51F865C86B3" name="CURSO_USUARIO PK">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:22:07 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6BFBE2D6-CDD4-9C02-F7B1-B1DD5C07640B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

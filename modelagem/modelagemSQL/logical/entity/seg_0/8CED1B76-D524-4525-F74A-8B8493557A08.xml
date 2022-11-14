@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CED1B76-D524-4525-F74A-8B8493557A08" name="COMENTARIOS">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:33:54 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_COMENTARIO" id="7491D784-6E5B-798C-B06C-2987AA5B4726">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:34:30 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CURSO" id="174AE448-58F4-0306-0DB4-965CD7BBCC69">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:38:15 UTC</createdTime>
+<generatorID>235B63AC-081C-E1B0-666B-5997274C3290</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<referedAttribute>593E824A-14DF-CEE5-4B16-95D07C9B234B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USUARIO" id="6C1EB06D-4195-5AD7-1243-234420B02C2B">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:37:08 UTC</createdTime>
+<generatorID>3C07677D-10DA-CC05-9744-60F3B686268D</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<referedAttribute>A6377D7E-87AD-DABA-3B6D-5F4AFA463DC8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMENTARIO" id="F549A34B-CC4E-120F-AD5C-50D9C7A89679">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:34:53 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AVALIACAO" id="2D4D5F24-6516-15B4-98A0-E09E8F6754CC">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:35:39 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_COMENTARIO" id="72E0CB8F-CA2D-F7AA-D321-92F9A1A600AB">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:35:17 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF95421F-F866-60F3-825C-FE722D58E77D" name="COMENTARIOS PK">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:36:12 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7491D784-6E5B-798C-B06C-2987AA5B4726</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
