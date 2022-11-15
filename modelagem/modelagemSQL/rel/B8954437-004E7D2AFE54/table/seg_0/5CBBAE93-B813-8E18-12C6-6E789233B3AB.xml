@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CBBAE93-B813-8E18-12C6-6E789233B3AB" name="USUARIO">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>A21E9E28-D3B8-2346-64BA-C7B5C2E1AC86</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USUARIO" id="F9EF9DD6-7261-4BF6-7B8F-667A7E8210B9">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>A6377D7E-87AD-DABA-3B6D-5F4AFA463DC8</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="F01A2D72-08CE-7993-0563-5F3A3449A6EF">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>371F5DFB-014D-9C19-F427-47F1F174FFB6</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="3A56C116-5A01-459A-8BE6-7EAF9078ADA6">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>1DEA7B41-71DF-00D1-9E61-235A90D7C52C</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SENHA" id="34B2E958-DDDA-1BC7-53DB-62D17CA8242B">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>703A8906-FDF4-0389-E527-3AEF1774D255</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERFIL" id="D9B284E9-77B5-481C-6D7A-B881895610E6">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>664A536D-1521-CAFA-27E2-557576CBBFA6</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITUACAO" id="FCD57C05-CF8F-06F5-FD43-9456DD8E1A46">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>1E99D71D-F1F6-F8AD-5EF2-BBA13F902657</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOKEN" id="D15DB952-2E3C-E419-5670-0D53C23B7213">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>3DB45F3B-EF7A-F76B-94F4-616A7D128A97</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATAVA_VALIDADE_TOKEN" id="4F0A9F5F-1450-30E7-933E-3474C3C24795">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>0F17D7A9-552F-BC82-BC6C-BBBB38D9F0D1</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_CADASTRO" id="8430C8C6-19E9-8DB2-61A9-04474756794F">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>89B42866-17DD-3F8D-DC6B-130A1F65E835</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B60C7065-FA3A-1C98-6F0B-10E31708D431" name="USUARIO_PK">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>69BC2936-53B1-FDF1-0E95-4017DA4AF2DF</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9EF9DD6-7261-4BF6-7B8F-667A7E8210B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
