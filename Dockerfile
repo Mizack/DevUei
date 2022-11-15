@@ -1,7 +1,6 @@
-FROM node:16
-WORKDIR /app-node
-ENV PORT=${PORT_BUILD}
-EXPOSE ${PORT_BUILD}
+FROM node:12
+WORKDIR /devuei
+EXPOSE 3000
 COPY . .
 RUN npm install
 ENTRYPOINT npm start
