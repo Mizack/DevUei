@@ -1,0 +1,65 @@
+/* Header */
+/** Header Menu **/
+
+.App {
+    width: 100%;
+    font-family: 'Courier Prime', monospace;
+  }
+  
+  .App-header {
+    height: 100vh;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+  
+  }
+  
+  .App-menu {
+    position: absolute;
+    width: 100%;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+  
+    background-color: #6272A4;
+  }
+  
+  .App-menu-logo {
+    position: absolute;
+    width: 54px;
+    height: 51px;
+    left: 32px;
+    top: 4px;
+  
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 51px;
+  
+    color: #50FA7B;
+  }
+  
+  .App-menu-right {
+    position: absolute;
+    right: 32px;
+    top: 4px;
+  }
+  
+  .App-icon-menu,
+  .App-icon-search {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+  }
+  
+  /** Logo **/
+  
+  .App-logo-devuei {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin-top: 150px;
+  }

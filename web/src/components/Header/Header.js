@@ -1,9 +1,9 @@
-import Menu from '../Menu/Menu'
+import MainMenu from '../Menu/Menu'
 
 function Header() {
     return (
         <header className="App-header">
-            <Menu />
+            <MainMenu />
             <section className="App-logo-devuei">
                 <img src={require('../../devuei.svg').default} alt='Devuei Logo' />
             </section>

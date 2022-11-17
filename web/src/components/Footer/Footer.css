@@ -1,0 +1,18 @@
+/* Footer */
+.App-footer {
+    position: absolute;
+  width: 100vw;
+  height: 344px;
+  left: 0px;
+  top: 2880px;
+  
+  background: #6272A4;
+  }
+  
+  .App-footer-logo {
+    position: absolute;
+    top: -22px;
+  width: 300px;
+  height: 144.55px;
+  left: -32px;
+  }
