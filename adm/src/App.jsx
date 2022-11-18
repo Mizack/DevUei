@@ -1,12 +1,14 @@
 import styles from './App.module.css'
+import { Cadastro } from './Cadastro'
 
 export function App() {
   return (
-    <>
+    <div className={styles.teste}>
       <header className={styles.header}>
         &#91;&#41;
       </header>
-      <div className={styles.App}>
+      <Cadastro />
+      {/* <div className={styles.App}>
         <span className={styles.logo}>&#91;&#41;EVUEI</span>
         <form>
           <section className={styles.loginCard}>
@@ -19,10 +21,11 @@ export function App() {
               <button type="submit">
                 Entrar
               </button>
+              <a href='#'>Cadastre-se</a>
             </footer>
           </section>
         </form>
-      </div>
-    </>
+      </div> */}
+    </div>
   )
 }

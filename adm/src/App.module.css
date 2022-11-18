@@ -58,14 +58,28 @@
   margin-top: 1rem;
   display: flex;
   justify-content: center;
+  gap: 0.5rem;
 }
 
-.loginCard footer button {
+.loginCard footer button, .loginCard footer a {
   width: 100%;
   padding: 0.5rem;
   border-radius: 50px;
   cursor: pointer;
   border: 0;
   background-color: var(--green-neon);
-  font-size: 1.563rem;
+  font-size: 1rem;
+  color: var(--dark);
+  transition: opacity 0.1s;
+}
+
+.loginCard footer a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginCard footer button:hover, .loginCard footer a:hover {
+  opacity: 0.9;
 }
