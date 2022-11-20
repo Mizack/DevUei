@@ -1,0 +1,117 @@
+.App-main {
+    width: 100%;
+
+    .App-goals {
+        .App-title {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 56px;
+
+            color: #50FA7B;
+        }
+    }
+}
+
+.App-about {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+    margin-top: 202px;
+
+    .App-box {
+        width: 437px;
+        height: 607px;
+
+        background: #44475A;
+        border-radius: 5px;
+
+        padding: 50px;
+
+        .App-box-title {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 56px;
+
+            color: #6272A4;
+
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+            width: 212px;
+
+            margin: auto;
+
+            padding-bottom: 13px;
+            padding-top: 13px;
+
+            border-bottom: 1px solid #50FA7B;
+            border-top: 1px solid #50FA7B;
+            box-shadow-top: 0px 5px 10px rgba(80, 250, 123, 0.66);
+        }
+
+        .App-box-text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 28px;
+            text-align: justify;
+
+            color: #FFFFFF;
+
+            margin-top: 108px;
+        }
+    }
+
+    .App-img {
+        img {
+            width: 100%;
+            margin: auto;
+        }
+    }
+}
+
+.App-call-action {
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    text-align: left;
+
+    .App-call-text {
+        width: 493px;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 45px;
+        color: #FFFFFF;
+
+        .text-logo {
+            color: #50FA7B;
+        }
+
+    }
+
+    .App-call-btn {
+        width: 218px;
+        height: 63px;
+
+        background: #6272A4;
+
+        border-radius: 100px;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 39px;
+
+        color: #282A36;
+    }
+
+}

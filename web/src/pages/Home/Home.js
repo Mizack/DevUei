@@ -1,61 +1,46 @@
-import './Home.css';
+import Card from "../../components/Card/Card"
+
+import './Home.scss';
 
 function Home() {
-    return (
-        <div>
-            <main className="App-main">
 
+    return (
+        <div className="Home">
+            <header className="App-header">
+                <img src={require('../../static/devuei.svg').default} alt='Trail icon' />
+            </header>
+            <main className="App-main">
                 <section className="App-goals">
                     <div className="App-h2">
                         <h2 class="App-title">Nosso objetivo é...</h2>
                     </div>
-                    <article class="App-box App-box-1">
-                        <figure className="App-box-icon">
-                            <img src={require('../../iconTrail.svg').default} alt='Trail icon' />
-                        </figure>
-                        <p className="App-box-text">Guiar Devs iniciantes mostrando tudo o que precisa para a trilha desejada.</p>
-                    </article>
-                    <article class="App-box App-box-2">
-                        <figure className="App-box-icon">
-                            <img src={require('../../iconTrail.svg').default} alt='Trail icon' />
-                        </figure>
-                        <p className="App-box-text">Guiar Devs iniciantes mostrando tudo o que precisa para a trilha desejada.</p>
-                    </article>
-                    <article class="App-box App-box-3">
-                        <figure className="App-box-icon">
-                            <img src={require('../../iconTrail.svg').default} alt='Trail icon' />
-                        </figure>
-                        <p className="App-box-text">Guiar Devs iniciantes mostrando tudo o que precisa para a trilha desejada.</p>
-                    </article>
+                    <Card />
                 </section>
             </main>
 
             <section className="App-about">
-                <article className="App-box App-box-4">
-                    <div>
-                        <h2 className="App-box-title">Sobre</h2>
-                    </div>
+                <article className="App-box">
+                    <h2 className="App-box-title">Sobre</h2>
                     <p className="App-box-text">
                         O Devuei é uma plataforma focada em guiar devs iniciantes de forma divertida e acolhedora.
                         <br />
                         Fundada pelo grupo 5Minds, com o objetivo de motivar estudantes de programação facilitando a tomada de decisão sobre qual trilha seguir.
                     </p>
                 </article>
-                <figure className="App-box-5">
-                    <img stye="width:725px;height:351px;" src={require('../../devueiAbout.svg').default} alt='Trail icon' />
-                </figure>
+                <img className="App-img" src={require('../../static/devueiAbout.svg').default} alt='Trail icon' />
             </section>
 
             <section className="App-call-action">
+                <div className="App-call">
                 <h3 className="App-call-text">Entenda melhor sobre o mundo DEV, faça parte do <span className="text-logo">[)evuei!</span></h3>
                 <button className="App-call-btn">Começar</button>
+                </div>
                 <figure className="App-call-img">
-                    <img stye="" src={require('../../imgMundoDev.svg').default} alt='Trail icon' />
+                    <img stye="" src={require('../../static/imgMundoDev.svg').default} alt='Trail icon' />
                 </figure>
             </section>
-
         </div>
-    )
+    );
 }
 
-export default Home
+export default Home;
