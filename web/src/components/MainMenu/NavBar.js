@@ -14,8 +14,8 @@ function Navbar() {
   return (
     <div className="MainMenu">
       <div className="MainMenuLeft">
-                    <img src={require('../../static/logoMenu.svg').default} alt='Devuei Logo Menu' />
-                </div>
+        <img src={require('../../static/logoMenu.svg').default} alt='Devuei Logo Menu' />
+      </div>
       <IconContext.Provider className="MainMenuRight" value={{ color: '#fff' }}>
         <div className='navbar'>
           <Link to='#' className='menu-bars'>
@@ -33,7 +33,7 @@ function Navbar() {
               return (
                 <li key={index} className="link">
                   <Link to={item.path}>
-                  {item.icon}<span>{item.title}</span>
+                    {item.icon}<span>{item.title}</span>
                   </Link>
                 </li>
               );

@@ -22,9 +22,12 @@ function Perfil() {
         </ul>
       </div>
       <div className='feed'>
+        <h2>Meus posts</h2>
+        <div className='posts'>
         <div className='post'>
           <p>Depois de 5 anos de muito estudo e trabalho enfim conquistei o emprego dos sonhos. Não desista!</p>
           <img src={require('../../static/feed.svg').default} alt='Feed' />
+        </div>
         </div>
       </div>
     </div>

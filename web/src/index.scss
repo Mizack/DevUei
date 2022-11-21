@@ -4,6 +4,16 @@ body {
   margin: 0;
   font-family: 'Courier Prime',
     sans-serif;
+  font-style: normal;
+  font-weight: 400;
 
   background-color: #282A36;
+
+  img,
+  figure,
+  video,
+  iframe,
+  audio {
+    max-width: 100%;
+  }
 }
