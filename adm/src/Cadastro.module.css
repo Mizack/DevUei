@@ -6,8 +6,8 @@
   background-color: #44475A;
   padding: 1.5rem;
   max-width: 31.25rem;
-  margin-top: 5rem;
   border-radius: 10px;
+  margin: 5rem 0.5rem;
 }
 
 .card > p {
