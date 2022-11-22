@@ -1,7 +1,8 @@
-import './Guia.scss';
 
 import faculdade from '../../static/faculdade.svg'
 import estagio from '../../static/estagio.svg'
+
+import './Guia.scss';
 
 function Guia() {
   let guia = [
