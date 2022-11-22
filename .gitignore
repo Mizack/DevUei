@@ -107,4 +107,5 @@ dist
 .tern-port
 
 mobile-devuei/.git
-devuei-backene/.git
+devuei-backend/.git
+web/.git
