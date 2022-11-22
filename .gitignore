@@ -40,7 +40,8 @@ build/Release
 # Dependency directories
 node_modules/
 web/node_modules
-mobile/node_modules
+mobile-devuei/node_modules
+devuei-backend/node_modules
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -104,3 +105,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+mobile-devuei/.git
+devuei-backene/.git
