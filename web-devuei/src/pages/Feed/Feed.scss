@@ -1,0 +1,74 @@
+.Feed {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    form,
+    .post {
+        width: 442px;
+        height: 76px;
+
+        padding: 9px;
+        margin-bottom: 30px;
+
+        background: #F8F8F2;
+        border-radius: 5px;
+    }
+
+    textarea {
+        border: 0;
+        width: 85%;
+        height: 100%;
+    }
+
+    button {
+        svg {
+            width: 37px;
+            height: 37px;
+            background-color: #F8F8F2;
+        }
+        border: 0;
+        background-color: #F8F8F2;
+
+        float: right;
+    }
+
+    .post {
+        height: auto;
+
+        .user {
+            width: 100%;
+            height: 36px;
+        }
+
+        .avatar {
+            border-radius: 50%;
+            background-position: -15px -15px;
+            height: 39px;
+            width: 39px;
+            border: solid 1px red;
+            margin-right: 19px;
+            float: left;
+        }
+
+        .content {
+            text-align: justify;
+
+            .image {
+                text-align: center;
+            }
+        }
+    }
+
+
+
+    .name {
+        float: left;
+    }
+}

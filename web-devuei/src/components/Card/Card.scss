@@ -1,0 +1,26 @@
+.Cards {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 50px;
+}
+
+.Card {
+    width: 270px;
+    height: 302px;
+
+    padding: 10px;
+
+    background: #44475A;
+    border-radius: 5px;
+
+    p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: justify;
+
+        color: #FFFFFF;
+    }
+}

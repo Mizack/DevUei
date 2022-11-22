@@ -1,0 +1,118 @@
+.Perfil {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .usuario {
+        width: 488px;
+        height: 383px;
+
+        margin-top: 35px;
+
+        background: #44475A;
+        border-radius: 5px;
+
+        .header {
+            display: flex;
+            align-content: space-between;
+            align-items: center;
+
+            width: 100%;
+
+            .avatar {
+                margin: 26px 30px;
+            }
+
+            .username {
+                margin-left: 10px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 28px;
+                /* identical to box height */
+
+
+                color: #FFFFFF;
+            }
+        }
+
+        ul {
+
+            list-style-type: none;
+
+            li {
+                margin-bottom: 23px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 28px;
+
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .feed {
+
+        width: 488px;
+        height: 598px;
+
+        margin-top: 22px;
+        margin-bottom: 22px;
+
+        background: #44475A;
+        border-radius: 5px;
+
+        h2 {
+            display: flex;
+            justify-content: center;
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 34px;
+            /* identical to box height */
+
+            text-align: justify;
+
+            color: #50FA7B;
+
+            margin-top: 35px;
+            margin-bottom: 35px;
+        }
+
+        .posts {
+            display: flex;
+            justify-content: center;
+
+            .post {
+                width: 312px;
+                height: 431px;
+    
+                background: #F8F8F2;
+                border-radius: 10px;
+    
+                padding-right: 16px;
+                padding-left: 16px;
+    
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 22px;
+                    text-align: justify;
+    
+                    color: #282A36;
+                }
+    
+                img,
+                svg {
+                    width: 280px;
+                }
+            }
+        }
+    }
+}

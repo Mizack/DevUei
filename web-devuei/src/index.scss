@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Courier Prime',
+    sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
+  background-color: #282A36;
+
+  img,
+  figure,
+  video,
+  iframe,
+  audio {
+    max-width: 100%;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, span, b, i, strong, em, input, 
+  input::placeholder, select, option, textarea, button {
+    font-family: 'Courier Prime';
+    font-weight: 400;
+  }
+}
