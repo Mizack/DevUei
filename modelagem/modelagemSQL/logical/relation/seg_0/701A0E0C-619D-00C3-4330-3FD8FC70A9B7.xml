@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CURSO_USUARIO" directorySegmentName="seg_0" id="701A0E0C-619D-00C3-4330-3FD8FC70A9B7">
+<createdBy>admin</createdBy>
+<createdTime>2022-11-14 17:23:10 UTC</createdTime>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<engineerTo>
+<item key="B8954437-780C-2DEE-D6F6-004E7D2AFE54" value="true"/>
+</engineerTo>
+<sourcePk>69BC2936-53B1-FDF1-0E95-4017DA4AF2DF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A21E9E28-D3B8-2346-64BA-C7B5C2E1AC86</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2D2FB765-35B9-F2A8-F5CE-1BFF78AEED02</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

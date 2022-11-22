@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="361E32F6-8C32-BA3E-8643-FD4355E5F5E5" name="COMENTARIOS">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:06 UTC</createdTime>
+<generatorID>8CED1B76-D524-4525-F74A-8B8493557A08</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMENTARIO" id="8D307707-DFE3-280D-4BF8-7CC7447F0F5C">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>7491D784-6E5B-798C-B06C-2987AA5B4726</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURSO_ID_CURSO" id="474A3611-A10C-8158-8BE3-05C00082B67A">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>174AE448-58F4-0306-0DB4-965CD7BBCC69</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="867960C4-5678-920D-2A0E-C17DDE5B84AB" referredColumn="E07DA30E-A0C5-A2A0-A64B-97138E58D63F"/>
+</associations>
+</Column>
+<Column name="USUARIO_ID_USUARIO" id="AE316DD7-F064-07D0-89A3-990671389ED1">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>6C1EB06D-4195-5AD7-1243-234420B02C2B</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA5E0245-D3AC-AFC8-1FBC-F1396F8D6658" referredColumn="F9EF9DD6-7261-4BF6-7B8F-667A7E8210B9"/>
+</associations>
+</Column>
+<Column name="COMENTARIO" id="1CDAFD81-524D-A229-AA3C-4301252E4525">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>F549A34B-CC4E-120F-AD5C-50D9C7A89679</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AVALIACAO" id="CA8761E3-6BD0-B61C-61EC-39D2D1569196">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>2D4D5F24-6516-15B4-98A0-E09E8F6754CC</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_COMENTARIO" id="77EF23F1-5813-0E7C-6567-D27DD8596F4D">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>72E0CB8F-CA2D-F7AA-D321-92F9A1A600AB</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="586067F6-2DBC-A61C-5EAE-B6DCBE6731DA" name="COMENTARIOS_PK">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>DF95421F-F866-60F3-825C-FE722D58E77D</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D307707-DFE3-280D-4BF8-7CC7447F0F5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1A113B8-2A5C-30C2-5B88-73FB78F75493" name="COMENTARIOS_USUARIO_FK">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>3C07677D-10DA-CC05-9744-60F3B686268D</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE316DD7-F064-07D0-89A3-990671389ED1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CCEDBB6-C1AB-2486-AA72-C723B62F21F7" name="COMENTARIOS_CURSO_FK">
+<createdBy>miza</createdBy>
+<createdTime>2022-11-15 00:37:07 UTC</createdTime>
+<generatorID>235B63AC-081C-E1B0-666B-5997274C3290</generatorID>
+<ownerDesignName>modelagemSQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="474A3611-A10C-8158-8BE3-05C00082B67A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
